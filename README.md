@@ -1,4 +1,4 @@
-<h1 align="center">Little Bit Large</h1> 
+<h1 align="center">To Be Determined</h1> 
 
 <p align="center">
   <i>Welcome to the Catalyst Studios GitHub. This repo is for our pack, <b>To Be Determined</b>!</i>
