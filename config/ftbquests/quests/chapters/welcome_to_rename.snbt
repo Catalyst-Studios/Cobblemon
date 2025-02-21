@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_rename"
+	group: "6C641885BA47B510"
+	id: "459B4D36D68B7600"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+}

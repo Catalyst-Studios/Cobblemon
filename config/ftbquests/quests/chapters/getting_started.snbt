@@ -1,0 +1,10 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "6C641885BA47B510"
+	id: "7887A7D531AEE744"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}
