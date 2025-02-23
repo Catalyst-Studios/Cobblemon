@@ -34,6 +34,15 @@
 	quest.46555241BE17628E.quest_subtitle: "The Master Alloy!"
 	quest.56E8FC581EB739D7.quest_desc: ["Find a Cherrish ball!"]
 	quest.5883C06FC54B8326.title: "Craft an Iron pick"
+	quest.5D40CF795025E630.quest_desc: [
+		"&2JEI USE IT. &fA lot of parts about Modded Minecraft can be really confusing but JEI is your bestfriend &4(JEI is the mod that lets you search when you open your inventory) &fSearch for recipes you dont know or even Chemical Lines from Mods like Mekanism to Magic like Botania JEI will give you all your answers to recipes"
+		""
+		"You can search specific mods with JEI by doing:"
+		""
+		"@(Modname)"
+		""
+		"All items and recipes from a mod will show up for you to access easily"
+	]
 	quest.6504BC762C9EE3B9.quest_desc: ["Time to cook those ores!"]
 	quest.6504BC762C9EE3B9.title: "Craft a Furnace!"
 	quest.70C9A62558C9C5D8.quest_desc: [
@@ -44,6 +53,9 @@
 	quest.70C9A62558C9C5D8.title: "Find a smithing template"
 	quest.7F3379B0AC168A76.title: "Get an Iron ingot"
 	task.00454648856FB34B.title: "You've Got Wood!"
+	task.2BD15A210C45F851.title: "Information"
 	task.443311D258D272F3.title: "Any #minecraft:stone_tool_materials"
+	task.52EC813A8F97BE6C.title: "JEI"
+	task.53803070FB2AED7B.title: "Welcome to the Modpack!"
 	task.700BBFCD14FF65AA.title: "Craft a Wood Pickaxe!"
 }

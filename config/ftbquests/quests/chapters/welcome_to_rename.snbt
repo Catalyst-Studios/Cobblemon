@@ -6,5 +6,24 @@
 	id: "459B4D36D68B7600"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "6C13C541AC0D26AD"
+			tasks: [{
+				id: "53803070FB2AED7B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5D40CF795025E630"
+			tasks: [{
+				id: "52EC813A8F97BE6C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
 }
