@@ -1,9 +1,49 @@
 {
 	chapter.459B4D36D68B7600.title: "Welcome to (RENAME)"
-	chapter.6D7541EA95DDC58B.title: "Gotta Craft Em All"
+	chapter.76E9A42DDEBE2EFD.title: "Gotta Craft Em' All"
 	chapter.7887A7D531AEE744.title: "Getting Started"
+	chapter_group.36D4536BAF0A5C1D.title: "Exploration"
 	chapter_group.57FA5F219D1195D7.title: "Cobblemon"
 	chapter_group.6C641885BA47B510.title: "Getting Started"
+	quest.05C157125D217029.title: "Craft a Crafting Table"
+	quest.0A1A9FDE435EDCB7.quest_desc: ["More Durable Than &bDiamonds&r And Now &4Fire&r And &4Lava&r Proof!"]
+	quest.0A1A9FDE435EDCB7.quest_subtitle: "Craft one of these tools!"
+	quest.0A1A9FDE435EDCB7.title: "Netherite Tools"
+	quest.0B5602A0E45357D9.title: "Upgrade your tools"
+	quest.0F5B6D724522937A.quest_subtitle: "Ya need to store your items ja? "
+	quest.0F5B6D724522937A.title: "Craft a Chest!"
+	quest.188BB18F1914F276.quest_subtitle: "Sped up your furnaces!"
+	quest.188BB18F1914F276.title: "Craft a handy iron Furnace!"
+	quest.2EFD2F0E5A11F8E4.quest_subtitle: "Time to go deeper"
+	quest.2EFD2F0E5A11F8E4.title: "Go to the nether"
+	quest.338F4D31F122479C.quest_desc: ["To Go Into The &nEnd Diamension&r, Firstly You Need To Find The Portal By &oThrowing&r The &3Eye Of Enders&r And Follow Them! They Will Lead You Into A Stronghold Where A Portal Can Be Found!"]
+	quest.338F4D31F122479C.title: "Time to go the end!"
+	quest.37CDDDB15F79F681.quest_subtitle: "Diggy Diggy Hole. Diggy Diggy Whaaat?"
 	quest.3B449CB64776AF4E.title: "Craft 4 Poke Balls"
+	quest.3B8ED16B9FDC838D.quest_subtitle: "Time to upgrade tools!"
+	quest.3B8ED16B9FDC838D.title: "Collect Cobblestone"
+	quest.3CA085CC79B856B4.title: "Acquire Diamonds"
+	quest.3EFA4536250965E9.quest_subtitle: "Storage on the go!"
+	quest.3EFA4536250965E9.title: "Craft a Backpack"
+	quest.418798357BC50477.quest_desc: [
+		"One Of The Hardest Metals Known To Men! To Be Able To Use It You Need To Make It Into An Alloy"
+		"With 4 Pieces Of &eGold&r and 4 &6Netherite Scraps&r! You Obtain Scraps By Smelting Ancient Debris "
+	]
+	quest.418798357BC50477.quest_subtitle: "Are Those Bones Or Molten Metal?"
+	quest.46555241BE17628E.quest_desc: ["Now You Can Make Your Diamond Tools Even Stronger! All You Need Now Is The Smithing Table And You're Good To Go! "]
+	quest.46555241BE17628E.quest_subtitle: "The Master Alloy!"
 	quest.56E8FC581EB739D7.quest_desc: ["Find a Cherrish ball!"]
+	quest.5883C06FC54B8326.title: "Craft an Iron pick"
+	quest.6504BC762C9EE3B9.quest_desc: ["Time to cook those ores!"]
+	quest.6504BC762C9EE3B9.title: "Craft a Furnace!"
+	quest.70C9A62558C9C5D8.quest_desc: [
+		"You will find these in treasure bastions, &lMake Sure To Copy It&r So You Always Have At Least"
+		"1 In Your Storage In Case You Need To Make Another Set Of Armor! You Will Need 7 &bDiamonds&r and 1 &4Netherrack&r &nPlus The Template&r You Just Got!"
+	]
+	quest.70C9A62558C9C5D8.quest_subtitle: "Strange Looking Template"
+	quest.70C9A62558C9C5D8.title: "Find a smithing template"
+	quest.7F3379B0AC168A76.title: "Get an Iron ingot"
+	task.00454648856FB34B.title: "You've Got Wood!"
+	task.443311D258D272F3.title: "Any #minecraft:stone_tool_materials"
+	task.700BBFCD14FF65AA.title: "Craft a Wood Pickaxe!"
 }
