@@ -1,0 +1,10 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:oak_planks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:oak_door"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:name_tag"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_oak_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:quick_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:dream_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:chest"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
