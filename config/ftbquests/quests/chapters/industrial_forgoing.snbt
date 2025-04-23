@@ -1,0 +1,238 @@
+{
+	autofocus_id: "67480133C1EB3EB4"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_forgoing"
+	group: "3605D6027C018ABC"
+	icon: {
+		id: "industrialforegoing:mycelial_reactor"
+	}
+	id: "21134914815DA27D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7CEA633014165EFD"
+				"64D754EF605B016B"
+				"192E89FE21E979DE"
+				"72E4033F30D99E21"
+				"74B37B715D3E15C2"
+				"24116133CE214EDE"
+				"1B7FB96020B37E2D"
+				"09FD9BD801011C44"
+				"21B2EBEFB6015B3C"
+				"676949B576E91F37"
+				"3C4E81E59336AF61"
+				"614D51C6733C52D0"
+				"487259B17AC7A819"
+				"1A7DC5F633A5D45E"
+				"5EE8753A4A0A0724"
+				"5A882955C2758754"
+			]
+			icon_scale: 2.0d
+			id: "67480133C1EB3EB4"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "725F9C4BD7F9AD49"
+				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "5A882955C2758754"
+			size: 1.0d
+			tasks: [{
+				id: "41F42C9FEB9F095B"
+				item: { count: 1, id: "industrialforegoing:mycelial_furnace" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "7CEA633014165EFD"
+			size: 1.0d
+			tasks: [{
+				id: "4CFCC7E75A2DF637"
+				item: { count: 1, id: "industrialforegoing:mycelial_slimey" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "5EE8753A4A0A0724"
+			size: 1.0d
+			tasks: [{
+				id: "6F3775C938439EAE"
+				item: { count: 1, id: "industrialforegoing:mycelial_culinary" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "21B2EBEFB6015B3C"
+			size: 1.0d
+			tasks: [{
+				id: "1A9F996EF9D7EB30"
+				item: { count: 1, id: "industrialforegoing:mycelial_potion" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "614D51C6733C52D0"
+			size: 1.0d
+			tasks: [{
+				id: "01998DD5261D35F5"
+				item: { count: 1, id: "industrialforegoing:mycelial_disenchantment" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "3C4E81E59336AF61"
+			size: 1.0d
+			tasks: [{
+				id: "558BF0F3D16BEAC9"
+				item: { count: 1, id: "industrialforegoing:mycelial_ender" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "676949B576E91F37"
+			size: 1.0d
+			tasks: [{
+				id: "3E1A96DE283BE0F7"
+				item: { count: 1, id: "industrialforegoing:mycelial_explosive" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "487259B17AC7A819"
+			size: 1.0d
+			tasks: [{
+				id: "62FEC0A56466D84B"
+				item: { count: 1, id: "industrialforegoing:mycelial_frosty" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "09FD9BD801011C44"
+			size: 1.0d
+			tasks: [{
+				id: "481A2DCD3AC9AE02"
+				item: { count: 1, id: "industrialforegoing:mycelial_halitosis" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "74B37B715D3E15C2"
+			size: 1.0d
+			tasks: [{
+				id: "577F9943F5FF73B5"
+				item: { count: 1, id: "industrialforegoing:mycelial_magma" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "1A7DC5F633A5D45E"
+			size: 1.0d
+			tasks: [{
+				id: "2EB9F28DA2C79513"
+				item: { count: 1, id: "industrialforegoing:mycelial_pink" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "1B7FB96020B37E2D"
+			size: 1.0d
+			tasks: [{
+				id: "1B07EAFEEAD53CFA"
+				item: { count: 1, id: "industrialforegoing:mycelial_netherstar" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "24116133CE214EDE"
+			size: 1.0d
+			tasks: [{
+				id: "69BBB62F8A1F33D9"
+				item: { count: 1, id: "industrialforegoing:mycelial_death" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "64D754EF605B016B"
+			size: 1.0d
+			tasks: [{
+				id: "0D746B799F3E7302"
+				item: { count: 1, id: "industrialforegoing:mycelial_rocket" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "192E89FE21E979DE"
+			size: 1.0d
+			tasks: [{
+				id: "1E8BC3DFEB5988D3"
+				item: { count: 1, id: "industrialforegoing:mycelial_crimed" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "72E4033F30D99E21"
+			size: 1.0d
+			tasks: [{
+				id: "3CE3A3D3A0BDCE39"
+				item: { count: 1, id: "industrialforegoing:mycelial_meatallurgic" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+}

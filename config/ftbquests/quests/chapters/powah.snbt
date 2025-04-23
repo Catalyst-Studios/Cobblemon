@@ -1,0 +1,1256 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "3605D6027C018ABC"
+	icon: {
+		id: "powah:dielectric_paste"
+	}
+	id: "59C0BACBAD205D7A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "64044E718ACC6168"
+			rewards: [{
+				id: "7D0FFC4451DA53F9"
+				item: {
+					count: 1
+					id: "powah:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0FDE9B2F7D75F805"
+				item: { count: 16, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64044E718ACC6168"]
+			id: "5064F4446619F711"
+			tasks: [
+				{
+					id: "72CF4BA73CA661D9"
+					item: { count: 1, id: "powah:energizing_orb" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6E5D18A11EB989B5"
+					item: { count: 4, id: "powah:energizing_rod_starter" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "76265BBA2C4EE568"
+					item: { count: 12, id: "powah:energy_cable_starter" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["64044E718ACC6168"]
+			id: "3F79B14AA12A4900"
+			tasks: [{
+				count: 2L
+				id: "2E1325358CBC1DB4"
+				item: { count: 1, id: "powah:capacitor_basic" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64044E718ACC6168"]
+			id: "3FB5F7E0903E0B9C"
+			tasks: [{
+				count: 2L
+				id: "060A68B8C09985D1"
+				item: { count: 1, id: "powah:capacitor_basic_tiny" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5064F4446619F711"]
+			id: "60287D3FA877AFE8"
+			tasks: [{
+				count: 2L
+				id: "51DCB4F6A96F6B16"
+				item: { count: 1, id: "powah:steel_energized" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5064F4446619F711"]
+			id: "1A56DCB261B7E1F1"
+			tasks: [{
+				id: "0B17BFB0E897B342"
+				item: { count: 1, id: "powah:crystal_blazing" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "1548A734AD4F9E24"
+			tasks: [{
+				id: "56623EF1311CB15E"
+				item: { count: 1, id: "powah:thermo_generator_starter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "44490B3DD91A473B"
+			tasks: [{
+				id: "6E74D9EFE2B3DC08"
+				item: { count: 1, id: "powah:magmator_starter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "7E893692208A7498"
+			tasks: [{
+				id: "07A638E3E1C8122D"
+				item: { count: 1, id: "powah:furnator_starter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "0B3644083E89E4D5"
+			tasks: [{
+				id: "77272BFDFF8C4F51"
+				item: { count: 1, id: "powah:solar_panel_starter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "78DDB16CF6EFCFA1"
+			tasks: [{
+				count: 36L
+				id: "01B6603A4E798321"
+				item: { count: 1, id: "powah:reactor_starter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5064F4446619F711"]
+			id: "6C0C822AF213671B"
+			tasks: [{
+				id: "42240552510AB78D"
+				item: { count: 1, id: "powah:crystal_niotic" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5064F4446619F711"]
+			id: "727E64692C6B4A8A"
+			tasks: [{
+				id: "3C0E2697C74FC58B"
+				item: { count: 1, id: "powah:crystal_spirited" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5064F4446619F711"]
+			id: "32E1DA2BC2BD1AA5"
+			shape: "hexagon"
+			tasks: [{
+				id: "70F6190CC1F51FB3"
+				item: { count: 1, id: "powah:crystal_nitro" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "69D7FDF7F9E6F659"
+			tasks: [{
+				id: "19C179FF2965D4D8"
+				item: { count: 1, id: "powah:thermo_generator_basic" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "447EBC31C4AE5252"
+			tasks: [{
+				id: "77E4CB2995A3879B"
+				item: { count: 1, id: "powah:furnator_basic" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "602A8BE110830B7E"
+			tasks: [{
+				id: "4E3FD1EC9EC1337A"
+				item: { count: 1, id: "powah:magmator_basic" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "1421278FC6E3EAE0"
+			tasks: [{
+				id: "3C23F3E441F0EC2D"
+				item: { count: 1, id: "powah:solar_panel_basic" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "38E03ACC8D76ED28"
+			tasks: [{
+				count: 36L
+				id: "69F0D59405DD70B6"
+				item: { count: 1, id: "powah:reactor_basic" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["609A779EC42C6AA1"]
+			id: "33772DDF22AD0272"
+			shape: "hexagon"
+			tasks: [{
+				id: "1A5B407BA6E187D6"
+				item: { count: 1, id: "powah:thermo_generator_nitro" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58D6A26E788DF7B8"]
+			id: "003F1A573DD590F2"
+			tasks: [{
+				id: "47F60B13EF5BD95D"
+				item: { count: 1, id: "powah:thermo_generator_spirited" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4107992AD4A7E5E4"]
+			id: "24867956B79F45A5"
+			tasks: [{
+				id: "5D41ACEEEF73B017"
+				item: { count: 1, id: "powah:thermo_generator_niotic" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["259F64B45A4E995C"]
+			id: "43E0799613E24550"
+			tasks: [{
+				id: "65A38DC2A040BBF6"
+				item: { count: 1, id: "powah:thermo_generator_blazing" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21E879BE54D09996"]
+			hide_dependency_lines: true
+			id: "3D4A237968B7531F"
+			tasks: [{
+				id: "35CF1F1928A99189"
+				item: { count: 1, id: "powah:thermo_generator_hardened" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60287D3FA877AFE8"]
+			hide_dependent_lines: true
+			id: "21E879BE54D09996"
+			tasks: [{
+				count: 2L
+				id: "2FA6499876347854"
+				item: { count: 1, id: "powah:capacitor_hardened" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A56DCB261B7E1F1"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "259F64B45A4E995C"
+			tasks: [{
+				count: 2L
+				id: "3364376A91C7CF91"
+				item: { count: 1, id: "powah:capacitor_blazing" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0C822AF213671B"]
+			hide_dependent_lines: true
+			id: "4107992AD4A7E5E4"
+			tasks: [{
+				count: 2L
+				id: "0304C33A30C7B0BE"
+				item: { count: 1, id: "powah:capacitor_niotic" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["727E64692C6B4A8A"]
+			hide_dependent_lines: true
+			id: "58D6A26E788DF7B8"
+			tasks: [{
+				count: 2L
+				id: "318A52B0B8409C9B"
+				item: { count: 1, id: "powah:capacitor_spirited" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32E1DA2BC2BD1AA5"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "609A779EC42C6AA1"
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "49563C41C7FD43E2"
+				item: { count: 1, id: "powah:capacitor_nitro" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["609A779EC42C6AA1"]
+			id: "5E90CD4273AF69AA"
+			shape: "hexagon"
+			tasks: [{
+				id: "064BDF0675E8BD19"
+				item: { count: 1, id: "powah:furnator_nitro" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58D6A26E788DF7B8"]
+			id: "5C95733FE9783EA4"
+			tasks: [{
+				id: "1EBBEDA3F4A97408"
+				item: { count: 1, id: "powah:furnator_spirited" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4107992AD4A7E5E4"]
+			id: "5AAAFEBC4F0D8CD1"
+			tasks: [{
+				id: "2B928B66E7F3F737"
+				item: { count: 1, id: "powah:furnator_niotic" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["259F64B45A4E995C"]
+			id: "3FCD1FE0DD73FD8F"
+			tasks: [{
+				id: "55CA56C23043C1AB"
+				item: { count: 1, id: "powah:furnator_blazing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21E879BE54D09996"]
+			hide_dependency_lines: true
+			id: "4D9426E7A72CBB05"
+			tasks: [{
+				id: "13A4D3F937E65FBE"
+				item: { count: 1, id: "powah:furnator_hardened" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["609A779EC42C6AA1"]
+			id: "68492DFCD79E14EE"
+			shape: "hexagon"
+			tasks: [{
+				id: "0A715FD3A2F3CD19"
+				item: { count: 1, id: "powah:magmator_nitro" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58D6A26E788DF7B8"]
+			id: "278CAE9F4BD3FBDC"
+			tasks: [{
+				id: "17B9ACCCBF21DD2D"
+				item: { count: 1, id: "powah:magmator_spirited" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4107992AD4A7E5E4"]
+			id: "38800CC41FCE9515"
+			tasks: [{
+				id: "0191C88B0E376444"
+				item: { count: 1, id: "powah:magmator_niotic" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["259F64B45A4E995C"]
+			id: "6A4FFC2661439571"
+			tasks: [{
+				id: "1478D3D296AA730D"
+				item: { count: 1, id: "powah:magmator_blazing" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21E879BE54D09996"]
+			id: "460D2472A4F94C32"
+			tasks: [{
+				id: "64E5E5F615A6AC7A"
+				item: { count: 1, id: "powah:magmator_hardened" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["609A779EC42C6AA1"]
+			id: "5DB7EC9941132FAA"
+			shape: "hexagon"
+			tasks: [{
+				id: "3EFFD3E78385279D"
+				item: { count: 1, id: "powah:solar_panel_nitro" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58D6A26E788DF7B8"]
+			id: "605B275DBA19A5D4"
+			tasks: [{
+				id: "125D1E938D7AB1E6"
+				item: { count: 1, id: "powah:solar_panel_spirited" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4107992AD4A7E5E4"]
+			id: "5BA41F08EDD6CFA1"
+			tasks: [{
+				id: "4667AF0ECC51B1BB"
+				item: { count: 1, id: "powah:solar_panel_niotic" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["259F64B45A4E995C"]
+			id: "6F752275CC85E67E"
+			tasks: [{
+				id: "5267BA3BAB4066A0"
+				item: { count: 1, id: "powah:solar_panel_blazing" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21E879BE54D09996"]
+			id: "73A1D41F4E26AE64"
+			tasks: [{
+				id: "30EA68FE223539E9"
+				item: { count: 1, id: "powah:solar_panel_hardened" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["609A779EC42C6AA1"]
+			id: "169159C76DB93E89"
+			shape: "hexagon"
+			tasks: [{
+				count: 36L
+				id: "226728FAF548179D"
+				item: { count: 1, id: "powah:reactor_nitro" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58D6A26E788DF7B8"]
+			id: "57F3D3A5F3500330"
+			tasks: [{
+				count: 36L
+				id: "34E9F65FE42E9533"
+				item: { count: 1, id: "powah:reactor_spirited" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4107992AD4A7E5E4"]
+			id: "31ED151943BAE6EA"
+			tasks: [{
+				count: 36L
+				id: "0B4CBA62C2E62408"
+				item: { count: 1, id: "powah:reactor_niotic" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["259F64B45A4E995C"]
+			id: "6102BC08A982538E"
+			tasks: [{
+				count: 36L
+				id: "7792906B9B22EE4F"
+				item: { count: 1, id: "powah:reactor_blazing" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21E879BE54D09996"]
+			id: "402CD31CA23FC6F9"
+			tasks: [{
+				count: 36L
+				id: "1AC2C9F4225AA881"
+				item: { count: 1, id: "powah:reactor_hardened" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "4F495CA895F5E437"
+			tasks: [{
+				count: 12L
+				id: "0E4B8C950A36C160"
+				item: { count: 1, id: "powah:energy_cable_starter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "6CDC2DB50862A6C5"
+			tasks: [{
+				count: 12L
+				id: "226CE8FB79840D18"
+				item: { count: 1, id: "powah:energy_cable_basic" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60287D3FA877AFE8"]
+			hide_dependency_lines: true
+			id: "38C4EFBDE7B277F1"
+			tasks: [{
+				count: 12L
+				id: "15A6386ED0D79486"
+				item: { count: 1, id: "powah:energy_cable_hardened" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A56DCB261B7E1F1"]
+			hide_dependency_lines: true
+			id: "438FA2169CF2B552"
+			tasks: [{
+				count: 12L
+				id: "251BD7B51F77139E"
+				item: { count: 1, id: "powah:energy_cable_blazing" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0C822AF213671B"]
+			hide_dependency_lines: true
+			id: "0769240F7331091E"
+			tasks: [{
+				count: 12L
+				id: "5055A2FD6AE018DD"
+				item: { count: 1, id: "powah:energy_cable_niotic" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["727E64692C6B4A8A"]
+			hide_dependency_lines: true
+			id: "50E1B3413D3AABF1"
+			tasks: [{
+				count: 12L
+				id: "3C72C44AACD6E120"
+				item: { count: 1, id: "powah:energy_cable_spirited" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32E1DA2BC2BD1AA5"]
+			hide_dependency_lines: true
+			id: "23287B28BA677ECC"
+			shape: "hexagon"
+			tasks: [{
+				count: 12L
+				id: "5CA007BDFB948402"
+				item: { count: 1, id: "powah:energy_cable_nitro" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "73B809FAFB6E415F"
+			tasks: [{
+				id: "5C4BA89CBB1E09FA"
+				item: { count: 1, id: "powah:energy_cell_starter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "4094BEAEC44F688A"
+			tasks: [{
+				id: "37BD632606114831"
+				item: { count: 1, id: "powah:energy_cell_basic" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60287D3FA877AFE8"]
+			hide_dependency_lines: true
+			id: "6CBB84606D385921"
+			tasks: [{
+				id: "2FDA5716B6A61E25"
+				item: { count: 1, id: "powah:energy_cell_hardened" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A56DCB261B7E1F1"]
+			hide_dependency_lines: true
+			id: "468F9129A5E6F511"
+			tasks: [{
+				id: "50B6F9086F8F8F01"
+				item: { count: 1, id: "powah:energy_cell_blazing" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0C822AF213671B"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "36020C6153C257FD"
+			tasks: [{
+				id: "12A2802EFA5900B4"
+				item: { count: 1, id: "powah:energy_cell_niotic" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["727E64692C6B4A8A"]
+			hide_dependency_lines: true
+			id: "3C707F1811FC83EC"
+			tasks: [{
+				id: "585D883DABF70D23"
+				item: { count: 1, id: "powah:energy_cell_spirited" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32E1DA2BC2BD1AA5"]
+			hide_dependency_lines: true
+			id: "4CACBE3F88A1887F"
+			shape: "hexagon"
+			tasks: [{
+				id: "4118E7E8AC65AF57"
+				item: { count: 1, id: "powah:energy_cell_nitro" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "22A16DC2356BD014"
+			tasks: [{
+				id: "248385A4BA879566"
+				item: { count: 1, id: "powah:battery_starter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "78B45F17005C8F75"
+			tasks: [{
+				id: "7925CB54CEF679DA"
+				item: { count: 1, id: "powah:battery_basic" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60287D3FA877AFE8"]
+			hide_dependency_lines: true
+			id: "2ABE90555FE55593"
+			tasks: [{
+				id: "25CFAE95A6AAB321"
+				item: { count: 1, id: "powah:battery_hardened" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A56DCB261B7E1F1"]
+			hide_dependency_lines: true
+			id: "2C5E234F577AF073"
+			tasks: [{
+				id: "2C8189F2E659565C"
+				item: { count: 1, id: "powah:battery_blazing" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0C822AF213671B"]
+			hide_dependency_lines: true
+			id: "0AD2D4287D6CE234"
+			tasks: [{
+				id: "18D4D52017D87A4E"
+				item: { count: 1, id: "powah:battery_niotic" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["727E64692C6B4A8A"]
+			hide_dependency_lines: true
+			id: "75ED3AD6B4AF5DB0"
+			tasks: [{
+				id: "7873F84635CA66C5"
+				item: { count: 1, id: "powah:battery_spirited" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32E1DA2BC2BD1AA5"]
+			hide_dependency_lines: true
+			id: "5F3FB3D416092F22"
+			shape: "hexagon"
+			tasks: [{
+				id: "118BBD798A0587F6"
+				item: { count: 1, id: "powah:battery_nitro" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78DDB16CF6EFCFA1"]
+			hide_dependency_lines: true
+			icon: {
+				id: "powah:uraninite"
+			}
+			id: "7C91EB38B3F7B3A7"
+			tasks: [{
+				id: "3C361DCBB61335B0"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B3644083E89E4D5"]
+			hide_dependency_lines: true
+			id: "01B07878D295BA78"
+			tasks: [
+				{
+					id: "67C61641AFF3CCE8"
+					item: { count: 1, id: "powah:photoelectric_pane" }
+					type: "item"
+				}
+				{
+					id: "2547262636BD9DC8"
+					item: { count: 1, id: "powah:lens_of_ender" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64044E718ACC6168"]
+			hide_dependency_lines: true
+			id: "12BBDEE51129FF57"
+			tasks: [{
+				id: "5E5D8C35DACDEB99"
+				item: { count: 1, id: "powah:ender_core" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "36ABDC7E12A604E7"
+			tasks: [{
+				id: "701C69F2591B3C5F"
+				item: { count: 1, id: "powah:ender_cell_starter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "7D6B92EA7FECF104"
+			tasks: [{
+				id: "3D4E433706929E10"
+				item: { count: 1, id: "powah:ender_cell_basic" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60287D3FA877AFE8"]
+			hide_dependency_lines: true
+			id: "0E8AC69AFA0F7E89"
+			tasks: [{
+				id: "49B51EFD0DF73098"
+				item: { count: 1, id: "powah:ender_cell_hardened" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A56DCB261B7E1F1"]
+			hide_dependency_lines: true
+			id: "5CE5062804BEA66C"
+			tasks: [{
+				id: "217EBEAF7C2C22AC"
+				item: { count: 1, id: "powah:ender_cell_blazing" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0C822AF213671B"]
+			hide_dependency_lines: true
+			id: "4EE0A743FC480BEF"
+			tasks: [{
+				id: "750D71FF1F50FD1F"
+				item: { count: 1, id: "powah:ender_cell_niotic" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["727E64692C6B4A8A"]
+			hide_dependency_lines: true
+			id: "3A4BAC911E4953B2"
+			tasks: [{
+				id: "01374C933D4B02CB"
+				item: { count: 1, id: "powah:ender_cell_spirited" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32E1DA2BC2BD1AA5"]
+			hide_dependency_lines: true
+			id: "2217069E7F39DE11"
+			shape: "hexagon"
+			tasks: [{
+				id: "22D9BC4C78B476E4"
+				item: { count: 1, id: "powah:ender_cell_nitro" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "3F121F31C569C7B2"
+			tasks: [{
+				count: 4L
+				id: "6E8347AC545392E7"
+				item: { count: 1, id: "powah:ender_gate_starter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "734621E26324D31C"
+			tasks: [{
+				count: 4L
+				id: "0351AB16A9520090"
+				item: { count: 1, id: "powah:ender_gate_basic" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60287D3FA877AFE8"]
+			hide_dependency_lines: true
+			id: "743FAF9A7990A31A"
+			tasks: [{
+				count: 4L
+				id: "49FFB813A0587A22"
+				item: { count: 1, id: "powah:ender_gate_hardened" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A56DCB261B7E1F1"]
+			hide_dependency_lines: true
+			id: "6F5C8117505A64B4"
+			tasks: [{
+				count: 4L
+				id: "14E255D68D07D457"
+				item: { count: 1, id: "powah:ender_gate_blazing" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0C822AF213671B"]
+			hide_dependency_lines: true
+			id: "5E21542C13D378F1"
+			tasks: [{
+				count: 4L
+				id: "21080163FE83FE7E"
+				item: { count: 1, id: "powah:ender_gate_niotic" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["727E64692C6B4A8A"]
+			hide_dependency_lines: true
+			id: "38981F8744FA20A9"
+			tasks: [{
+				count: 4L
+				id: "57EF5F27EC745351"
+				item: { count: 1, id: "powah:ender_gate_spirited" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32E1DA2BC2BD1AA5"]
+			hide_dependency_lines: true
+			id: "4805C8B1E05B52E6"
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "40F5DFB0F6C3E308"
+				item: { count: 1, id: "powah:ender_gate_nitro" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64044E718ACC6168"]
+			hide_dependency_lines: true
+			id: "56D68839A3E3AC11"
+			tasks: [
+				{
+					id: "49F266B0332A6F79"
+					item: { count: 1, id: "powah:aerial_pearl" }
+					type: "item"
+				}
+				{
+					id: "003190388FEE25A0"
+					item: { count: 1, id: "powah:player_aerial_pearl" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FB5F7E0903E0B9C"]
+			hide_dependency_lines: true
+			id: "60CE44B56457CC97"
+			tasks: [{
+				id: "57453A122A3442BB"
+				item: { count: 1, id: "powah:player_transmitter_starter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F79B14AA12A4900"]
+			hide_dependency_lines: true
+			id: "1DBE7DD5E5DC2F43"
+			tasks: [{
+				id: "635B5639BF25ED01"
+				item: { count: 1, id: "powah:player_transmitter_basic" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60287D3FA877AFE8"]
+			hide_dependency_lines: true
+			id: "453D667B2A2E7878"
+			tasks: [{
+				id: "278BD284E8F11D7E"
+				item: { count: 1, id: "powah:player_transmitter_hardened" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1A56DCB261B7E1F1"]
+			hide_dependency_lines: true
+			id: "378020C522407324"
+			tasks: [{
+				id: "49794F77C4EF87F6"
+				item: { count: 1, id: "powah:player_transmitter_blazing" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0C822AF213671B"]
+			hide_dependency_lines: true
+			id: "06123832E2EAAA2A"
+			tasks: [{
+				id: "5571CC1CE5C08EB3"
+				item: { count: 1, id: "powah:player_transmitter_niotic" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["727E64692C6B4A8A"]
+			hide_dependency_lines: true
+			id: "0C9B1ACD58246784"
+			tasks: [{
+				id: "5868A5FD73A2A073"
+				item: { count: 1, id: "powah:player_transmitter_spirited" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32E1DA2BC2BD1AA5"]
+			hide_dependency_lines: true
+			id: "6973FFE5BCD4C143"
+			shape: "hexagon"
+			tasks: [{
+				id: "3D0D8CF769FA2EB6"
+				item: { count: 1, id: "powah:player_transmitter_nitro" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["78DDB16CF6EFCFA1"]
+			hide_dependency_lines: true
+			icon: {
+				id: "powah:dry_ice"
+			}
+			id: "0FAFEC8E6EFDF696"
+			tasks: [{
+				id: "2BF0D95850296586"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1548A734AD4F9E24"]
+			hide_dependency_lines: true
+			icon: {
+				id: "powah:blazing_crystal_block"
+			}
+			id: "6BF11D0B0BBCC629"
+			tasks: [{
+				id: "08654EA7423C4232"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64044E718ACC6168"]
+			hide_dependency_lines: true
+			id: "6DD8BA6E64723981"
+			tasks: [{
+				id: "16EB90DA467C5F40"
+				item: { count: 1, id: "powah:binding_card" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DD8BA6E64723981"]
+			id: "5C090D59FF2AA8F5"
+			tasks: [{
+				id: "786420E0AE3C813B"
+				item: { count: 1, id: "powah:binding_card_dim" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+	]
+}

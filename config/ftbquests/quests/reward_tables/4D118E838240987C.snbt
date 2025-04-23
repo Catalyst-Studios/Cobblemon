@@ -1,0 +1,127 @@
+{
+	id: "4D118E838240987C"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 4
+			id: "2CF04C6F701BB043"
+			item: {
+				count: 1
+				id: "cobblemon:poke_ball"
+			}
+		}
+		{
+			count: 4
+			id: "33D543F0A0D63BEA"
+			item: {
+				count: 1
+				id: "cobblemon:citrine_ball"
+			}
+		}
+		{
+			count: 4
+			id: "35B0233ADD92E671"
+			item: {
+				count: 1
+				id: "cobblemon:verdant_ball"
+			}
+		}
+		{
+			count: 4
+			id: "76D6E0468BA154E1"
+			item: {
+				count: 1
+				id: "cobblemon:azure_ball"
+			}
+		}
+		{
+			count: 4
+			id: "146DE591A0A3A430"
+			item: {
+				count: 1
+				id: "cobblemon:roseate_ball"
+			}
+		}
+		{
+			count: 4
+			id: "5EE81831ADC187F3"
+			item: {
+				count: 1
+				id: "cobblemon:premier_ball"
+			}
+		}
+		{
+			count: 2
+			id: "415332043E55E90E"
+			item: {
+				count: 1
+				id: "cobblemon:great_ball"
+			}
+		}
+		{
+			count: 2
+			id: "41F40E287327C5C0"
+			item: {
+				count: 1
+				id: "cobblemon:ultra_ball"
+			}
+		}
+		{
+			count: 4
+			id: "504FF8351831D72B"
+			item: {
+				count: 1
+				id: "cobblemon:red_apricorn"
+			}
+		}
+		{
+			count: 4
+			id: "6961B592F97344D3"
+			item: {
+				count: 1
+				id: "cobblemon:yellow_apricorn"
+			}
+		}
+		{
+			count: 4
+			id: "1BEF5BCE59E38181"
+			item: {
+				count: 1
+				id: "cobblemon:green_apricorn"
+			}
+		}
+		{
+			count: 4
+			id: "68E9ED90167A88F9"
+			item: {
+				count: 1
+				id: "cobblemon:blue_apricorn"
+			}
+		}
+		{
+			count: 4
+			id: "15440D1F07496412"
+			item: {
+				count: 1
+				id: "cobblemon:pink_apricorn"
+			}
+		}
+		{
+			count: 4
+			id: "1D255236669AFC2A"
+			item: {
+				count: 1
+				id: "cobblemon:white_apricorn"
+			}
+		}
+		{
+			count: 4
+			id: "2ECD66F83AD1B35F"
+			item: {
+				count: 1
+				id: "cobblemon:black_apricorn"
+			}
+		}
+	]
+}

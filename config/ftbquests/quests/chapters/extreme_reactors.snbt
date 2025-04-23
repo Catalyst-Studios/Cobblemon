@@ -1,0 +1,305 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extreme_reactors"
+	group: "3605D6027C018ABC"
+	icon: {
+		id: "bigreactors:deepslate_yellorite_ore"
+	}
+	id: "03D8D180A57CDD27"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "469948B1A2F6AFF7"
+			rewards: [{
+				id: "1366C570ADC93330"
+				item: {
+					components: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+					count: 1
+					id: "patchouli:guide_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "61869A2424547463"
+				item: { count: 1, id: "bigreactors:raw_yellorium" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["469948B1A2F6AFF7"]
+			id: "6C721BA6DB332931"
+			tasks: [
+				{
+					id: "208D3337B6E9B2D4"
+					item: { count: 1, id: "bigreactors:basic_reactorfuelrod" }
+					type: "item"
+				}
+				{
+					id: "314AA7E71E81D142"
+					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
+					type: "item"
+				}
+				{
+					id: "151209D5B56BB8D4"
+					item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "124443BB4FC18DB7"
+					item: { count: 22, id: "bigreactors:basic_reactorcasing" }
+					type: "item"
+				}
+				{
+					id: "052FCBC8754EAB71"
+					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_active" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1809CDCB9102D3FA"
+					item: { count: 1, id: "bigreactors:basic_reactorsolidaccessport" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C721BA6DB332931"]
+			id: "75554B9E6CEECD61"
+			tasks: [{
+				id: "433F89C6866B5276"
+				item: { count: 1, id: "bigreactors:cyanite_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["75554B9E6CEECD61"]
+			id: "61C454B34B09B86B"
+			tasks: [{
+				id: "156AD16DF277785B"
+				item: { count: 1, id: "bigreactors:basic_turbinecontroller" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75554B9E6CEECD61"]
+			id: "3FAA5E65A962ACCB"
+			tasks: [
+				{
+					id: "6FE6ED0EA6C32B7E"
+					item: { count: 1, id: "bigreactors:reprocessorcontroller" }
+					type: "item"
+				}
+				{
+					id: "406C2210F667FB58"
+					item: { count: 1, id: "bigreactors:reprocessorpowerport" }
+					type: "item"
+				}
+				{
+					id: "21380E03D807B23E"
+					item: { count: 1, id: "bigreactors:reprocessorcollector" }
+					type: "item"
+				}
+				{
+					id: "0E4FEC7A65E09844"
+					item: { count: 1, id: "bigreactors:reprocessorwasteinjector" }
+					type: "item"
+				}
+				{
+					id: "27F56B19FF60E993"
+					item: { count: 1, id: "bigreactors:reprocessorfluidinjector" }
+					type: "item"
+				}
+				{
+					id: "252F3FA7ABCA9AD0"
+					item: { count: 1, id: "bigreactors:reprocessoroutputport" }
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "650170B74D401357"
+					item: { count: 52, id: "bigreactors:reprocessorcasing" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C721BA6DB332931"]
+			id: "4BD3D5EC6775DCB7"
+			tasks: [
+				{
+					id: "297AF01E2B452A58"
+					item: { count: 1, id: "bigreactors:fluidizercontroller" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "52F0DF3072FA0E3C"
+					item: { count: 21, id: "bigreactors:fluidizercasing" }
+					type: "item"
+				}
+				{
+					id: "4FB8A39C3FB495A9"
+					item: { count: 1, id: "bigreactors:fluidizerpowerport" }
+					type: "item"
+				}
+				{
+					id: "5023DD5DDE923E68"
+					item: { count: 1, id: "bigreactors:fluidizeroutputport" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FAA5E65A962ACCB"]
+			id: "4513187D40BAD1A7"
+			tasks: [{
+				id: "3819908EB0734572"
+				item: { count: 1, id: "bigreactors:blutonium_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4513187D40BAD1A7"]
+			id: "4166D5D943532C03"
+			tasks: [{
+				id: "0E3A66803CCB583F"
+				item: { count: 1, id: "bigreactors:ludicrite_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4166D5D943532C03"]
+			id: "286AAC1E65134817"
+			tasks: [{
+				id: "639220D0E34C9641"
+				item: { count: 1, id: "bigreactors:ridiculite_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["286AAC1E65134817"]
+			id: "5E670FEF4898E754"
+			tasks: [{
+				id: "1B47C678F0C48A55"
+				item: { count: 1, id: "bigreactors:inanite_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2590440DD0F51F61"
+				"5E670FEF4898E754"
+			]
+			id: "3448D1FA1511B289"
+			tasks: [{
+				id: "4346ACE10A9C489C"
+				item: { count: 1, id: "bigreactors:insanite_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0EDFA31AF239FEE8"
+				"5C0FC8BC2F67B5AF"
+				"0D3FB569EBB7BBD2"
+			]
+			dependency_requirement: "one_completed"
+			id: "2590440DD0F51F61"
+			tasks: [{
+				id: "1ED49032CD39DDB6"
+				item: { count: 1, id: "bigreactors:insanite_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54E8AF2DCD679E9C"]
+			id: "0EDFA31AF239FEE8"
+			tasks: [{
+				id: "135E1699B00A9B98"
+				item: { count: 1, id: "bigreactors:reinforced_reactorfluidaccessport" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C721BA6DB332931"]
+			hide_dependency_lines: true
+			id: "54E8AF2DCD679E9C"
+			tasks: [{
+				id: "04AD363A43A5B301"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcontroller" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3FAA5E65A962ACCB"]
+			id: "0B193092234C6530"
+			tasks: [{
+				count: 4L
+				id: "08EF0E4430E48D51"
+				item: { count: 1, id: "bigreactors:reprocessorglass" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4BD3D5EC6775DCB7"]
+			id: "0D3FB569EBB7BBD2"
+			tasks: [{
+				count: 2L
+				id: "62F5779E03DCF351"
+				item: { count: 2, id: "bigreactors:fluidizerfluidinjector" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BD3D5EC6775DCB7"]
+			dependency_requirement: "all_started"
+			id: "5C0FC8BC2F67B5AF"
+			tasks: [{
+				count: 2L
+				id: "18074BFB3D837DB1"
+				item: { count: 2, id: "bigreactors:fluidizersolidinjector" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+	]
+}

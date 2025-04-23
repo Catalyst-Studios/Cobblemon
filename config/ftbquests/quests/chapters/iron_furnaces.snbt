@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iron_furnaces"
+	group: "4197252DA86F4486"
+	icon: {
+		components: {
+			"minecraft:custom_name": "{\"extra\":[{\"color\":\"red\",\"text\":\"R\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"blue\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"b\"},{\"color\":\"light_purple\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"light_purple\",\"text\":\" \"},{\"color\":\"green\",\"text\":\"F\"},{\"color\":\"green\",\"text\":\"u\"},{\"color\":\"aqua\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}"
+		}
+		id: "ironfurnaces:million_furnace"
+	}
+	id: "4A2BAB034B41BFEF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ironfurnaces:iron_furnace"
+			}
+			icon_scale: 2.0d
+			id: "435C4790D453EC4C"
+			tasks: [{
+				id: "53973652D37E4C00"
+				item: { count: 1, id: "ironfurnaces:iron_furnace" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "484B5374BDBEED29"
+			tasks: [{
+				id: "30E19C038A38E1AC"
+				item: { count: 1, id: "ironfurnaces:gold_furnace" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "397211CCF54462C5"
+			tasks: [{
+				id: "77090AD2D840C2AC"
+				item: { count: 1, id: "ironfurnaces:diamond_furnace" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "2D5330413A2666AE"
+			tasks: [{
+				id: "068B1903C7445009"
+				item: { count: 1, id: "ironfurnaces:obsidian_furnace" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "3397022FFE4E8526"
+			tasks: [{
+				id: "721D540CA78E6BC9"
+				item: { count: 1, id: "ironfurnaces:netherite_furnace" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "0D5018F73D4FB7F2"
+			tasks: [{
+				id: "5DBA1911021FFC00"
+				item: { count: 1, id: "ironfurnaces:augment_blasting" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			id: "7C344A4623CEEC06"
+			tasks: [{
+				id: "288D64AB57318046"
+				item: { count: 1, id: "ironfurnaces:augment_smoking" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "093F462780D826FB"
+			tasks: [{
+				id: "2DDDBB368B1DB57F"
+				item: { count: 1, id: "ironfurnaces:augment_factory" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "2E0C242DB2416958"
+			tasks: [{
+				id: "7DF1BBFB018622ED"
+				item: { count: 1, id: "ironfurnaces:augment_generator" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "2420111B0A5FEA82"
+			tasks: [{
+				id: "5EFAAEC24D417FC4"
+				item: { count: 1, id: "ironfurnaces:augment_speed" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "1113E824D22F6B34"
+			tasks: [{
+				id: "2BB78E0B69CAB76E"
+				item: { count: 1, id: "ironfurnaces:augment_fuel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "3E3C57FF36AA9125"
+			shape: "none"
+			tasks: [{
+				id: "081B35B4646F1EDA"
+				item: { count: 1, id: "ironfurnaces:crystal_furnace" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "5CED739D71516B8D"
+			tasks: [{
+				id: "61AD21C875C1B0AD"
+				item: { count: 1, id: "ironfurnaces:emerald_furnace" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "634B5C25765F099A"
+			tasks: [{
+				id: "4EDD50A52BF22C48"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"green\",\"text\":\"R\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"i\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"green\",\"text\":\"o\"},{\"color\":\"green\",\"text\":\"w\"},{\"color\":\"red\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"blue\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}" }, count: 1, id: "ironfurnaces:million_furnace" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+	]
+}

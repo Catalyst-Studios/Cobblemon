@@ -1,15 +1,23 @@
 {
+	autofocus_id: "613997B9CD7B65FA"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "getting_started"
 	group: "6C641885BA47B510"
+	icon: {
+		id: "minecraft:netherite_pickaxe"
+	}
 	id: "7887A7D531AEE744"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			id: "613997B9CD7B65FA"
+			shape: "gear"
 			tasks: [{
+				icon: {
+					id: "minecraft:oak_log"
+				}
 				id: "00454648856FB34B"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -63,6 +71,9 @@
 		}
 		{
 			dependencies: ["37CDDDB15F79F681"]
+			icon: {
+				id: "minecraft:cobblestone"
+			}
 			id: "3B8ED16B9FDC838D"
 			tasks: [{
 				id: "443311D258D272F3"
@@ -85,17 +96,34 @@
 		}
 		{
 			dependencies: ["6504BC762C9EE3B9"]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
 			id: "7F3379B0AC168A76"
-			tasks: [{
-				id: "5106405CA97D01EE"
-				item: { count: 1, id: "minecraft:iron_ingot" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5106405CA97D01EE"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "5E06435A3835397C"
+					item: { count: 1, id: "easy_villagers:iron_farm" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7F3379B0AC168A76"]
+			icon: {
+				components: {
+					"sophisticatedstorage:wood_type": "spruce"
+				}
+				id: "sophisticatedstorage:iron_chest"
+			}
 			id: "7D63E7EF9092F07C"
 			tasks: [{
 				id: "3B65CF4556D6D1B2"
@@ -165,12 +193,26 @@
 		}
 		{
 			dependencies: ["2EFD2F0E5A11F8E4"]
+			icon: {
+				id: "minecraft:netherite_upgrade_smithing_template"
+			}
 			id: "70C9A62558C9C5D8"
-			tasks: [{
-				id: "6B89730737CB03DE"
-				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6B89730737CB03DE"
+					item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "minecraft:netherite_ingot"
+					}
+					id: "6E8D38E01C65276E"
+					optional_task: true
+					structure: "#minecraft:bastion_remnant"
+					type: "structure"
+				}
+			]
 			x: 14.0d
 			y: -1.0d
 		}
@@ -201,7 +243,7 @@
 			id: "0A1A9FDE435EDCB7"
 			tasks: [{
 				id: "3E0FACF79B53E531"
-				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:netherite_sword)item(minecraft:netherite_hoe)item(minecraft:netherite_axe)item(minecraft:netherite_pickaxe)item(minecraft:netherite_shovel))", "minecraft:custom_name": "\"netherite \"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:netherite_shovel)item(minecraft:netherite_pickaxe)item(minecraft:netherite_axe)item(minecraft:netherite_hoe)item(minecraft:netherite_sword)item(pickletweaks:netherite_sickle)item(pickletweaks:netherite_scythe)item(ftbstuff:netherite_hammer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 17.0d
@@ -220,6 +262,28 @@
 			}]
 			x: 15.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0B5602A0E45357D9"]
+			id: "1477E7AFA9BB376A"
+			tasks: [{
+				id: "4886BC410F3711BD"
+				item: { count: 1, id: "pickletweaks:diamond_paxel" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A1A9FDE435EDCB7"]
+			id: "608E46C12F85A7A9"
+			tasks: [{
+				id: "7D354174C4F336F7"
+				item: { count: 1, id: "pickletweaks:netherite_paxel" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
 		}
 	]
 }

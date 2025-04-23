@@ -1,14 +1,32 @@
 {
+	autofocus_id: "6C13C541AC0D26AD"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "welcome_to_rename"
 	group: "6C641885BA47B510"
+	icon: {
+		id: "cobblemon:poke_ball"
+	}
 	id: "459B4D36D68B7600"
+	images: [{
+		click: "https://discord.gg/g8S6nGnbPy"
+		height: 1.0d
+		image: "lollipop:textures/gui/wiki/social/discord.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -2.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
 			id: "6C13C541AC0D26AD"
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "53803070FB2AED7B"
 				type: "checkmark"
@@ -17,13 +35,17 @@
 			y: 0.0d
 		}
 		{
+			icon: {
+				id: "minecraft:crafting_table"
+			}
 			id: "5D40CF795025E630"
+			shape: "circle"
 			tasks: [{
 				id: "52EC813A8F97BE6C"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
 		}
 	]
 }
