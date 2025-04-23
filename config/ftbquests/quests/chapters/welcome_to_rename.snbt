@@ -11,7 +11,8 @@
 	images: [{
 		click: "https://discord.gg/g8S6nGnbPy"
 		height: 1.0d
-		image: "lollipop:textures/gui/wiki/social/discord.png"
+		hover: ["Join Our Discord!"]
+		image: "moonlight:textures/gui/sprites/media/discord.png"
 		rotation: 0.0d
 		width: 1.0d
 		x: 0.0d

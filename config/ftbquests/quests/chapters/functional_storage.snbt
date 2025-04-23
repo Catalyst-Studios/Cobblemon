@@ -262,7 +262,7 @@
 			}]
 			tasks: [{
 				id: "24DE507CC384D218"
-				item: { count: 1, id: "functionalstorage:collector_upgrade" }
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -278,7 +278,7 @@
 			}]
 			tasks: [{
 				id: "7C53C67491F83E16"
-				item: { count: 1, id: "functionalstorage:puller_upgrade" }
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:puller_upgrade" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -294,7 +294,7 @@
 			}]
 			tasks: [{
 				id: "16EE6B17B76650B4"
-				item: { count: 1, id: "functionalstorage:pusher_upgrade" }
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:pusher_upgrade" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -358,7 +358,7 @@
 			}]
 			tasks: [{
 				id: "165C1DAECB061089"
-				item: { count: 1, id: "functionalstorage:redstone_upgrade" }
+				item: { components: { "functionalstorage:slot": 0 }, count: 1, id: "functionalstorage:redstone_upgrade" }
 				type: "item"
 			}]
 			x: 2.5d
