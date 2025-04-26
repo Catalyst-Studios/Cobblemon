@@ -1,7 +1,7 @@
-<h1 align="center">To Be Determined</h1> 
+<h1 align="center">Cobblemon Sink</h1> 
 
 <p align="center">
-  <i>Welcome to the Catalyst Studios GitHub. This repo is for our pack, <b>To Be Determined</b>!</i>
+  <i>Welcome to the Catalyst Studios GitHub. This repo is for our pack, <b>Cobblemon Sink</b>!</i>
 </p>
 
 <h3 align="center">
