@@ -3,6 +3,7 @@
   "mod_priorities": [
     "minecraft",
     "kubejs",
+    "eternalores",
     "modern_industrialization",
     "industrialforegoing",
     "extremereactors", 
